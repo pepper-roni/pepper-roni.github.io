@@ -1,2 +1,2 @@
-# pepper-roni.github.io
+# jdholmes.ca
 my place on the internet
