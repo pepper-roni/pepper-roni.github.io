@@ -1,0 +1,62 @@
+:root {
+    --primary-color: rgb(169, 169, 255);
+    --accent-color: rgb(128, 255, 128);
+    --text-inverse: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Playfair Display', Georgia;
+}
+
+h1 {
+    align-items: center;
+}
+
+.jd {
+    color: var(--text-inverse);
+    background-color: var(--accent-color);
+    font-size: 8rem;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Bodoni Moda', serif;
+    padding: 0 1rem;
+}
+
+.holmes {
+    color: var(--primary-color);
+    font-size: 4rem;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    
+}
+
+.nav {
+    margin-top: 2rem;
+    font-family: 'Playfair Display', Georgia;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 5px;
+}
