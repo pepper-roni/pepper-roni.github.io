@@ -16,29 +16,31 @@ body {
 
 h1 {
     align-items: center;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 1.5rem;
+    text-decoration-skip-ink: none;
 }
 
 .jd {
-    color: var(--text-inverse);
-    background-color: var(--accent-color);
+    color: var(--accent-color);
     font-size: 8rem;
     font-weight: 900;
     font-style: italic;
     font-family: 'Bodoni Moda', serif;
-    padding: 0 1rem;
 }
 
 .holmes {
     color: var(--primary-color);
     font-size: 4rem;
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
     
 }
 
 .nav {
     margin-top: 2rem;
     font-family: 'Playfair Display', Georgia;
+    color: var(--primary-color);
+    font-size: 1.5rem;
 }
 
 .nav ul {
@@ -50,13 +52,13 @@ h1 {
 }
 
 .nav a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-size: 1.5rem;
+    text-decoration: none; 
+    color: var(--primary-color); 
 }
 
 .nav a:hover {
     text-decoration: underline;
     text-decoration-color: var(--accent-color);
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 0.5rem;
+    text-decoration-skip-ink: none;
 }
