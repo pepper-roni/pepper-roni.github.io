@@ -3,11 +3,11 @@
     --accent-color: rgb(128, 255, 128);
     --accent-color-light: rgb(240, 255, 240);
     --text-inverse: white;
+    --shadow: rgb(255, 231, 231);
 }
 
 body {
     display: flex;
-    background-color: var(--accent-color-light);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,13 +17,12 @@ body {
 }
 
 h1 {
+    background-color: var(--accent-color-light);
+    border-radius: .25rem;
     font-weight: 800;
     align-items: center;
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
-    text-decoration-thickness: 1.25rem;
-    text-decoration-skip-ink: none;
-    
+    padding: 0 2rem;
+    box-shadow: 0 0 .25rem .25rem var(--shadow);
 }
 
 .jd {

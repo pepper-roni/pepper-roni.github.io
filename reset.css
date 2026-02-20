@@ -1,0 +1,6 @@
+*, *::before, *::after { box-sizing: border-box; } /* Intuitive box-sizing */
+* { margin: 0; } /* Remove default margins */
+body { line-height: 1.5; -webkit-font-smoothing: antialiased; } /* Better readability */
+img, picture, video, canvas, svg { display: block; max-width: 100%; } /* Responsive media */
+input, button, textarea, select { font: inherit; } /* Inherit fonts */
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; text-wrap: pretty; } /* Text styling */
