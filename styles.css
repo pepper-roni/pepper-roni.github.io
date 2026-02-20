@@ -1,11 +1,13 @@
 :root {
     --primary-color: rgb(169, 169, 255);
     --accent-color: rgb(128, 255, 128);
+    --accent-color-light: rgb(240, 255, 240);
     --text-inverse: white;
 }
 
 body {
     display: flex;
+    background-color: var(--accent-color-light);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -21,6 +23,7 @@ h1 {
     text-decoration-color: var(--accent-color);
     text-decoration-thickness: 1.25rem;
     text-decoration-skip-ink: none;
+    
 }
 
 .jd {
@@ -48,17 +51,29 @@ h1 {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .nav a {
     text-decoration: none; 
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     color: var(--primary-color); 
 }
 
+.nav a i {
+    padding: 0.25rem;
+}
+
 .nav a:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
-    text-decoration-thickness: 0.5rem;
-    text-decoration-skip-ink: none;
+    color: var(--text-inverse);
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    box-shadow: 0 0 1rem var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.nav a:hover i {
+    color: var(--text-inverse);
+    background-color: var(--primary-color);
+    padding: 0.25rem;
 }
