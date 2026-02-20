@@ -70,10 +70,12 @@ h1 {
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     box-shadow: 0 0 1rem var(--primary-color);
     transition: all 0.3s ease;
+    border-radius: .25rem;
 }
 
 .nav a:hover i {
     color: var(--text-inverse);
     background-color: var(--primary-color);
     padding: 0.25rem;
+    border-radius: .25rem;
 }
