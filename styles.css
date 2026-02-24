@@ -108,3 +108,28 @@ h1 {
     width: 60%;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+    .jd {
+        font-size: 10rem;
+    }
+
+    .holmes {
+        font-size: 1.2rem;
+    }
+
+    .header {
+        height: 40%;
+    }
+
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .content {
+        width: 90%;
+    }
+}
