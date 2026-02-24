@@ -1,9 +1,9 @@
 :root {
-    --primary-color: rgb(169, 169, 255);
-    --accent-color: rgb(128, 255, 128);
-    --accent-color-light: rgb(240, 255, 240);
+    --primary-color:#5D4C75;
+    --accent-color: #B4A5CA;
+    --accent-color-light: #9FF5B3;
     --text-inverse: white;
-    --shadow: rgb(255, 231, 231);
+    --shadow: #AAA3B5;
 }
 
 body {
@@ -28,22 +28,26 @@ body {
 }
 
 h1 {
+    color: var(--primary-color);
     border-radius: .25rem;
-    font-weight: 800;
     padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .jd {
-    color: var(--accent-color);
-    font-size: 8rem;
-    font-style: italic;
-    font-family: 'Bodoni Moda', serif;
+    font-size: 20rem;
+    font-family: "Monoton", sans-serif;
+    line-height: .8;
 }
 
 .holmes {
-    color: var(--primary-color);
-    font-size: 8rem;
-    
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1;
+    justify-content: right;
+    display: flex;
+    padding: 0 5px 0 0;
 }
 
 .nav {
