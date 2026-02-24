@@ -140,14 +140,13 @@ h1 {
     }
 
     .header {
-        height: 40%;
+        height: 30%;
     }
 
     .nav {
         flex-direction: column;
         height: auto;
         padding: 1rem;
-        gap: 1rem;
     }
 
     .content {
