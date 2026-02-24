@@ -109,6 +109,27 @@ h1 {
     box-sizing: border-box;
 }
 
+.btn {
+    font-family: 'Playfair Display', Georgia;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: .1rem solid var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border-radius: .25rem;
+    align-self: flex-end;
+}
+
+.btn:hover {
+    color: var(--text-inverse);
+    background-color: var(--primary-color);
+    box-shadow: 0 0 1rem var(--primary-color);
+}
+
 @media (max-width: 768px) {
     .jd {
         font-size: 10rem;
