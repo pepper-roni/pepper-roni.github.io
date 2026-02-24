@@ -25,7 +25,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    box-shadow: 0 .1rem .1rem 0rem var(--shadow);
 }
 
 h1 {
@@ -39,13 +38,11 @@ h1 {
 .jd {
     font-size: 20rem;
     font-family: "Monoton", sans-serif;
-    line-height: .8;
 }
 
 .holmes {
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 1;
     justify-content: right;
     display: flex;
     padding: 0 5px 0 0;
@@ -64,6 +61,7 @@ h1 {
     align-items: center;
     padding: 0 2rem;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 .nav ul {
