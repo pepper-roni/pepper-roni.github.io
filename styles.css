@@ -15,6 +15,8 @@ body {
     margin: 0;
     font-family: 'Playfair Display', Georgia;
     justify-content: flex-start;
+    font-size: 1.25rem;
+    color: var(--primary-color);
 }
 
 .header {
@@ -99,4 +101,11 @@ h1 {
     background-color: var(--primary-color);
     padding: 0.25rem;
     border-radius: .25rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    box-sizing: border-box;
 }
